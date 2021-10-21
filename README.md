@@ -4,7 +4,7 @@
 <p align="center">
     <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
     <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#-ide">IDE</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-ide">IDE</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
 
@@ -50,32 +50,35 @@ This project was done using [Visual Studio Code](https://code.visualstudio.com/)
 
 ```json
 {
-    "editor.fontSize": 16,
-    "terminal.integrated.fontSize": 16,
-    "workbench.colorTheme": "Omni",
-    "workbench.iconTheme": "material-icon-theme",
-		"editor.bracketPairColorization.enabled": true,
-    "editor.minimap.enabled": false,
-    "editor.wordWrap": "on",
-    "workbench.editor.tabSizing": "shrink",
-    "explorer.compactFolders": false,
-    // formatter
-    "prettier.tabWidth": 2,
-    "prettier.semi": false, 
-    "prettier.singleQuote": true,
-    "prettier.trailingComma": "none", 
-    "prettier.arrowParens": "avoid",
-    "prettier.endOfLine": "auto",
-    "editor.tabSize": 2,
-    "editor.formatOnSave": true,
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "liveServer.settings.donotShowInfoMsg": true,
-    "liveServer.settings.donotVerifyTags": true,
+   "editor.fontSize": 16,
+   "terminal.integrated.fontSize": 16,
+   "workbench.colorTheme": "Omni",
+   "workbench.iconTheme": "material-icon-theme",
+     "editor.bracketPairColorization.enabled": true,
+   "editor.minimap.enabled": false,
+   "editor.wordWrap": "on",
+   "workbench.editor.tabSizing": "shrink",
+   "explorer.compactFolders": false,
+
+   // formatter
+   "prettier.tabWidth": 2,
+   "prettier.semi": false, 
+   "prettier.singleQuote": true,
+   "prettier.trailingComma": "none", 
+   "prettier.arrowParens": "avoid",
+   "prettier.endOfLine": "auto",
+   "editor.tabSize": 2,
+   "editor.formatOnSave": true,
+   "[javascript]": {
+       "editor.defaultFormatter": "esbenp.prettier-vscode"
+   },
+   "[html]": {
+       "editor.defaultFormatter": "esbenp.prettier-vscode"
+   },
+   "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "window.zoomLevel": 1,
+  "tabnine.experimentalAutoImports": true,
 }
 ```
 
@@ -89,5 +92,6 @@ This project was done using [Visual Studio Code](https://code.visualstudio.com/)
 
 
 Done with ♥ by [José Marcio]
+<br>
 https://marciovesk.github.io/NLW_Heat_Origin/
 

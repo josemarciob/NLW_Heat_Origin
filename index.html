@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>NLW Heat</title>
 
     <link rel="stylesheet" href="style.css" />
 
@@ -25,7 +25,7 @@
           <img src="images/avatar.jpg" alt="Foto Pessoal" />
         </div>
         <h1>José Marcio</h1>
-        <a href="https://github.com/Marciovesk">
+        <a href="https://github.com/Marciovesk" target="_blank">
           <img src="images/github.svg" alt="ícone github" />
           Marciovesk</a
         >
@@ -34,41 +34,25 @@
           Systems Analysis and Development Student / Jr. Front End Developer
         </p>
 
-        <ul>
-          <li>
-            <a href="https://youtube.com/">
-              <img
-                src="images/youtube.svg"
-                alt="ícone youtube"
-                target="_blank"
-              />
+        <ul id="socialLinks">
+          <li class="youtube">
+            <a href="https://youtube.com/" target="_blank">
+              <img src="images/youtube.svg" alt="ícone youtube" />
             </a>
           </li>
-          <li>
-            <a href="https://instagram.com/">
-              <img
-                src="images/instagram.svg"
-                alt="ícone instagram"
-                target="_blank"
-              />
+          <li class="instagram">
+            <a href="https://instagram.com/" target="_blank">
+              <img src="images/instagram.svg" alt="ícone instagram" />
             </a>
           </li>
-          <li>
-            <a href="https://facebook.com/">
-              <img
-                src="images/facebook.svg"
-                alt="ícone facebook"
-                target="_blank"
-              />
+          <li class="facebook">
+            <a href="https://facebook.com/" target="_blank">
+              <img src="images/facebook.svg" alt="ícone facebook" />
             </a>
           </li>
-          <li>
-            <a href="https://twitter.com/">
-              <img
-                src="images/twitter.svg"
-                alt="ícone twitter"
-                target="_blank"
-              />
+          <li class="twitter">
+            <a href="https://twitter.com/" target="_blank">
+              <img src="images/twitter.svg" alt="ícone twitter" />
             </a>
           </li>
         </ul>
@@ -78,5 +62,25 @@
         </div>
       </div>
     </main>
+
+    <script>
+      const linksSocialMidia = {
+        github: 'Marciovesk',
+        youtube: 'Marciovesk',
+        facebook: 'Marciovesk',
+        instagram: 'Marciovesk',
+        twitter: 'Marciovesk2'
+      }
+
+      function changeSocialMidiaLinks() {
+        for (let li of socialLinks.children) {
+          const social = li.getAttribute('class')
+
+          li.children[0].href = `https://www.${social}.com/${linksSocialMidia[social]}`
+        }
+      }
+
+      changeSocialMidiaLinks()
+    </script>
   </body>
 </html>

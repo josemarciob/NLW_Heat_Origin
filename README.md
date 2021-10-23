@@ -86,10 +86,10 @@ This project was done using [Visual Studio Code](https://code.visualstudio.com/)
 ## Project
 
 <div align="center">
-    <img src="images/dpmob.jpeg">
+    <img src="images/dpdesk.jpeg">
 </div>
 <div align="center">
-    <img src="images/dpdesk.jpeg">
+    <img src="images/dpmob.jpeg">
 </div>
 
 

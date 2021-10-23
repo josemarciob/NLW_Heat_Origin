@@ -86,7 +86,10 @@ This project was done using [Visual Studio Code](https://code.visualstudio.com/)
 ## Project
 
 <div align="center">
-    <img src="https://fv2-4.failiem.lv/thumb_show.php?i=e2gqxvy2g&view">
+    <img src="images/dpmob.jpeg">
+</div>
+<div align="center">
+    <img src="images/dpdesk.jpeg">
 </div>
 
 

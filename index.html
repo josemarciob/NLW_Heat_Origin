@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt_BR">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NLW Heat</title>
 
@@ -22,15 +21,15 @@
           <span>
             <img src="./images/build.svg" alt="Selo Rocketseat" />
           </span>
-          <img src="images/avatar.jpg" alt="Foto Pessoal" />
+          <img id="userImage" src="images/avatar.jpg" alt="Foto Pessoal" />
         </div>
-        <h1>José Marcio</h1>
-        <a href="https://github.com/Marciovesk" target="_blank">
+        <h1 id="userName">Marcio</h1>
+        <a id="userLink" href="https://github.com/Marciovesk" target="_blank">
           <img src="images/github.svg" alt="ícone github" />
-          Marciovesk</a
-        >
+          <span id="userLogin">Marciovesk</span>
+        </a>
 
-        <p>
+        <p id="userBio">
           Systems Analysis and Development Student / Jr. Front End Developer
         </p>
 
@@ -63,24 +62,6 @@
       </div>
     </main>
 
-    <script>
-      const linksSocialMidia = {
-        github: 'Marciovesk',
-        youtube: 'Marciovesk',
-        facebook: 'Marciovesk',
-        instagram: 'Marciovesk',
-        twitter: 'Marciovesk2'
-      }
-
-      function changeSocialMidiaLinks() {
-        for (let li of socialLinks.children) {
-          const social = li.getAttribute('class')
-
-          li.children[0].href = `https://www.${social}.com/${linksSocialMidia[social]}`
-        }
-      }
-
-      changeSocialMidiaLinks()
-    </script>
+    <script src="main.js"></script>
   </body>
 </html>

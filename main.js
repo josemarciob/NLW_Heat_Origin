@@ -1,9 +1,9 @@
 const linksSocialMidia = {
-  github: 'Marciovesk',
-  youtube: 'Marciovesk',
-  facebook: 'Marciovesk',
-  instagram: 'Marciovesk',
-  twitter: 'Marciovesk2'
+  github: 'josemarciob',
+  youtube: 'josemarciob',
+  facebook: 'josemarciob',
+  instagram: 'josemarciob',
+  twitter: 'josemarciob'
 }
 
 function changeSocialMidiaLinks() {

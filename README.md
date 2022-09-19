@@ -96,5 +96,5 @@ This project was done using [Visual Studio Code](https://code.visualstudio.com/)
 
 Done with ♥ by [José Marcio]
 <br>
-https://marciovesk.github.io/NLW_Heat_Origin/
+https://josemarciob.github.io/NLW_Heat_Origin/
 
